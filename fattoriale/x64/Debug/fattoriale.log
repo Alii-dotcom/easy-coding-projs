@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\alice\OneDrive\Desktop\Contenuti\fattoriale\main.c(16,6): warning C4101: 'n': unreferenced local variable
+  fattoriale.vcxproj -> C:\Users\alice\OneDrive\Desktop\Contenuti\fattoriale\x64\Debug\fattoriale.exe
