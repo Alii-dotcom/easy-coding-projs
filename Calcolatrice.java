@@ -1,10 +1,9 @@
 package org.example.easycodingprojs;
-import java.util.Scanner; // mi permette di interagire con l'utente
+import java.util.Scanner;
+// creando una calcolatrice 4 operazioni
+// 4 casi : + - * /
 
 public class Calcolatrice {
-    // creando una calcolatrice 4 operazioni
-    // 4 casi : + - * /
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -24,7 +23,6 @@ public class Calcolatrice {
                 operatore = opIn.charAt(0);
                 break;
             }
-
         }
 
         System.out.println("Inserire secondo numero: ");
@@ -35,7 +33,6 @@ public class Calcolatrice {
         double ris = 0;
 
         // if, else if e else
-
         switch (operatore) {
             case '+':
                 ris = num1 + num2;
@@ -59,7 +56,6 @@ public class Calcolatrice {
         if (!error) {
             System.out.println("Risultato = " + ris);
         }
-
         input.close();
     }
 }
